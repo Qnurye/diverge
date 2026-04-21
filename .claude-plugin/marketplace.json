@@ -1,0 +1,15 @@
+{
+  "name": "diverge",
+  "owner": { "name": "Qnurye" },
+  "metadata": {
+    "description": "Single-plugin marketplace distributing the diverge planning skill."
+  },
+  "plugins": [
+    {
+      "name": "diverge",
+      "source": "./plugins/diverge",
+      "description": "Divergent planning skill + 7-agent team: spec audit, abstract planning, detailed planning with devil's advocate validation, TDD variant, and single-implementer variant.",
+      "version": "0.1.0"
+    }
+  ]
+}
