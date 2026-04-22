@@ -121,6 +121,8 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 export BASE_BRANCH="${base_branch}"
 export BRANCH_NAME="${branch_name}"
 export DIVERGE_SCRIPTS="${PLUGIN_SCRIPTS_DIR}"
+export PLUGIN_ROOT_DIR="${PLUGIN_ROOT_DIR}"
+export DIVERGE_EMIT_SH="${PLUGIN_ROOT_DIR}/monitor/emit.sh"
 DIVERGE_MONITOR_DIR="/tmp/diverge/${goal}/monitor"
 export DIVERGE_MONITOR_DIR
 DIVERGE_GOAL_SLUG="${goal}"

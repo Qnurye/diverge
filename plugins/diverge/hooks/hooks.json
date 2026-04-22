@@ -1,0 +1,34 @@
+{
+  "PostToolUse": [
+    {
+      "matcher": "SendMessage",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "${CLAUDE_PLUGIN_ROOT}/hooks/diverge-emit-send-message.sh",
+          "timeout": 3
+        }
+      ]
+    },
+    {
+      "matcher": "TaskUpdate",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "${CLAUDE_PLUGIN_ROOT}/hooks/diverge-emit-task-update.sh",
+          "timeout": 3
+        }
+      ]
+    },
+    {
+      "matcher": "TaskCreate",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "${CLAUDE_PLUGIN_ROOT}/hooks/diverge-emit-task-update.sh",
+          "timeout": 3
+        }
+      ]
+    }
+  ]
+}
