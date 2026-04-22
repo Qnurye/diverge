@@ -25,7 +25,7 @@ EMIT_SH="${DIVERGE_EMIT_SH:-$HOME/dotfiles/agents/skills/diverge/monitor/emit.sh
 if [[ ! -f "$EMIT_SH" ]]; then
   # Fallback: resolve relative to this hook's own location
   _self_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  EMIT_SH="$_self_dir/../skills/diverge/monitor/emit.sh"
+  EMIT_SH="$_self_dir/../monitor/emit.sh"
 fi
 # shellcheck source=/dev/null
 source "$EMIT_SH" 2>/dev/null || exit 0
