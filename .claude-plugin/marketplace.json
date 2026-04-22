@@ -9,7 +9,7 @@
       "name": "diverge",
       "source": "./plugins/diverge",
       "description": "Divergent planning skill + 7-agent team: spec audit, abstract planning, detailed planning with devil's advocate validation, TDD variant, and single-implementer variant.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

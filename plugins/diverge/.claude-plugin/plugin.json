@@ -1,7 +1,7 @@
 {
   "name": "diverge",
   "description": "Divergent planning — explore multiple implementation directions for a goal, refine with user input, then generate executable launcher scripts for each chosen approach.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": { "name": "Qnurye" },
   "homepage": "https://github.com/Qnurye/diverge"
 }
